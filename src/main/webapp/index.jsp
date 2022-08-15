@@ -203,11 +203,11 @@ body {
 						<h1 id="title">Log in</h1>
 						<div class="login__field">
 							<i class="login__icon fas fa-user"></i> <input type="text"
-								class="login__input" placeholder="User name" id="id" value="">
+								class="login__input" name="id" placeholder="User name" id="id" value="">
 						</div>
 						<div class="login__field">
 							<i class="login__icon fas fa-lock"></i> <input type="password"
-								class="login__input" placeholder="Password" id="password"
+								class="login__input" name="password" placeholder="Password" id="password"
 								value="">
 						</div>
 						<button class="button login__submit">
@@ -229,6 +229,7 @@ body {
 				</div>
 			</div>
 		</div>
+    </main>
 </body>
 
 </html>

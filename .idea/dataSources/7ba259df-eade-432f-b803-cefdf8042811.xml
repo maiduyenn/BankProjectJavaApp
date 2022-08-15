@@ -1110,239 +1110,81 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="302" parent="289" name="current_acc">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <table id="303" parent="289" name="saving_acc">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <table id="304" parent="289" name="transaction">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <table id="305" parent="289" name="user_auth">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="306" parent="299" name="course">
+    <column id="302" parent="299" name="course">
       <DataType>text|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="307" parent="299" name="date">
+    <column id="303" parent="299" name="date">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="308" parent="299" name="time">
+    <column id="304" parent="299" name="time">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="309" parent="300" name="roll">
+    <column id="305" parent="300" name="roll">
       <DataType>int|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="310" parent="300" name="name">
+    <column id="306" parent="300" name="name">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="311" parent="300" name="username">
+    <column id="307" parent="300" name="username">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="312" parent="300" name="password">
+    <column id="308" parent="300" name="password">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="313" parent="300" name="email">
+    <column id="309" parent="300" name="email">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="314" parent="301" name="roll">
+    <column id="310" parent="301" name="roll">
       <DataType>int|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="315" parent="301" name="year">
+    <column id="311" parent="301" name="year">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="316" parent="301" name="quatre">
+    <column id="312" parent="301" name="quatre">
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="317" parent="301" name="course1">
+    <column id="313" parent="301" name="course1">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="318" parent="301" name="course2">
+    <column id="314" parent="301" name="course2">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="319" parent="301" name="course3">
+    <column id="315" parent="301" name="course3">
       <DataType>text|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="320" parent="301" name="course4">
+    <column id="316" parent="301" name="course4">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="321" parent="301" name="grade1">
+    <column id="317" parent="301" name="grade1">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="322" parent="301" name="grade2">
+    <column id="318" parent="301" name="grade2">
       <DataType>text|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="323" parent="301" name="grade3">
+    <column id="319" parent="301" name="grade3">
       <DataType>text|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="324" parent="301" name="grade4">
+    <column id="320" parent="301" name="grade4">
       <DataType>text|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="325" parent="302" name="acc_no">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="326" parent="302" name="cur_no">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="327" parent="302" name="acc_balance">
-      <DataType>double|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <index id="328" parent="302" name="PRIMARY">
-      <ColNames>cur_no</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="329" parent="302" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="330" parent="303" name="acc_no">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="331" parent="303" name="sav_no">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="332" parent="303" name="acc_balance">
-      <DataType>double|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="333" parent="303" name="duration">
-      <DataType>int|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="334" parent="303" name="rate">
-      <DataType>double|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="335" parent="303" name="date">
-      <DataType>varchar(30)|0s</DataType>
-      <Position>6</Position>
-    </column>
-    <index id="336" parent="303" name="PRIMARY">
-      <ColNames>sav_no</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="337" parent="303" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="338" parent="304" name="trans_id">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="339" parent="304" name="from_acc">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="340" parent="304" name="to_acc">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="341" parent="304" name="amount">
-      <DataType>double|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="342" parent="304" name="action">
-      <DataType>varchar(30)|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="343" parent="304" name="date">
-      <DataType>varchar(40)|0s</DataType>
-      <Position>6</Position>
-    </column>
-    <index id="344" parent="304" name="PRIMARY">
-      <ColNames>trans_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="345" parent="304" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="346" parent="305" name="customer_id">
-      <DataType>int|0s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="347" parent="305" name="user_id">
-      <DataType>int|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="348" parent="305" name="password">
-      <DataType>varchar(30)|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="349" parent="305" name="name">
-      <DataType>varchar(40)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="350" parent="305" name="address">
-      <DataType>varchar(50)|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="351" parent="305" name="phone">
-      <DataType>varchar(12)|0s</DataType>
-      <Position>6</Position>
-    </column>
-    <column id="352" parent="305" name="isNew">
-      <DataType>varchar(3)|0s</DataType>
-      <Position>7</Position>
-    </column>
-    <column id="353" parent="305" name="acc_no">
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>8</Position>
-    </column>
-    <index id="354" parent="305" name="PRIMARY">
-      <ColNames>acc_no</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="355" parent="305" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>
