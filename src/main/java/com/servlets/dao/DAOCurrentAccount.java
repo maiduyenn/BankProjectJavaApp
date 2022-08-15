@@ -21,7 +21,7 @@ public class DAOCurrentAccount {
 	}
 
 	public void createNewAccount(int acccount_number, int current_number, int balance) {
-		query = "insert into current_account (account_number,current_number,account_balance) values(" + acccount_number
+		query = "insert into current_acc (acc_no,cur_no,acc_balance) values(" + acccount_number
 				+ "," + current_number + "," + balance + ")";
 
 		try {
@@ -52,10 +52,8 @@ public class DAOCurrentAccount {
 	public boolean updateCurrentAccount(CurrentAccount cur) {
 		query = "update current_acc set acc_balance = " + cur.getAccBalance() + " where acc_no = " + cur.getAccNumber()
 				+ " and cur_no =" + cur.getAcc_no();
-		if (db.doExecuteUpdate(query)) {
-			return true;
-		}
-		return false;
+
+		return db.doExecuteUpdate(query);
 	}
 
 	public boolean updateTransaction(int acc_number, int acc_id, double amount, String action) {

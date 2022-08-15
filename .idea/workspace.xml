@@ -9,8 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ab4a545-760d-4df8-9b8e-b15fad4bb7b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="0ab4a545-760d-4df8-9b8e-b15fad4bb7b0" name="Changes" comment="Add name attributes in the input tags">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LabA2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LabA2_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ba259df-eade-432f-b803-cefdf8042811.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ba259df-eade-432f-b803-cefdf8042811.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/JDBCConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/JDBCConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlets/dao/DAOCurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlets/dao/DAOCurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlets/dao/DAOUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlets/dao/DAOUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servletsController/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servletsController/ChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homepage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +132,16 @@
       <option name="presentableId" value="Default" />
       <updated>1660528821990</updated>
       <workItem from="1660528823730" duration="1055000" />
-      <workItem from="1660559127987" duration="78000" />
+      <workItem from="1660559127987" duration="3301000" />
     </task>
+    <task id="LOCAL-00001" summary="Add name attributes in the input tags">
+      <created>1660559266323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660559266323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add name attributes in the input tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add name attributes in the input tags" />
   </component>
 </project>

@@ -64,7 +64,7 @@ public class DAOUser {
 				user.setCusName(rs.getString("name"));
 				user.setCusAddress(rs.getString("address"));
 				user.setCusPhoneNumber(rs.getInt("phone"));
-				user.setAccountNumber(rs.getInt("account_number"));
+				user.setAccountNumber(rs.getInt("acc_no"));
 			}
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
@@ -76,7 +76,7 @@ public class DAOUser {
 		try {
 			query = "UPDATE user_auth SET password='" + user.getPassword() + "', name = '" + user.getCusName()
 					+ "', address = '" + user.getCusAddress() + "',phone = '" + user.getCusPhoneNumber()
-					+ "',isNew='no',account_number =" + user.getAccountNumber() + " WHERE customer_id = " + id + " or user_id =" + id;
+					+ "',isNew='no',acc_no =" + user.getAccountNumber() + " WHERE customer_id = " + id + " or user_id =" + id;
 
 			db.doQuery(query);
 			if (!rs.next()) {

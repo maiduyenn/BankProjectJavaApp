@@ -28,6 +28,7 @@ public class ChangePassword extends HttpServlet {
 		boolean flag = dao.checkIsNewUser(id);
 		user.setPassword(password);
 		dao.updateUser(id, user);
+
 		if (flag) {
 			request.getRequestDispatcher("register.jsp").forward(request, response);
 		} else {
