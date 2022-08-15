@@ -199,20 +199,19 @@ body {
 					<form action="ChangePassword" method="post" class="login">
 						<div class="login__field">
 							<i class="login__icon fas fa-user"></i> <input type="text"
-								class="login__input" placeholder="User name" id="id" value="">
+								class="login__input" placeholder="User name" id="id" value=""  name="id">
 						</div>
 						<div class="login__field">
 							<i class="login__icon fas fa-lock"></i> <input type="password"
-								class="login__input" placeholder="Password" id="password">
+								class="login__input" placeholder="Password" id="password"  name="password">
 						</div>
 						<div class="login__field">
 							<i class="login__icon fas fa-lock"></i> <input type="password"
 								class="login__input" placeholder="Confirm Password"
-								id="re_password">
+								id="re_password"  name="re-password">
 						</div>
 						<button class="button login__submit">
-							<span class="button__text" id="submit-button">Change
-								Password</span>
+							<span class="button__text" id="submit-button">ChangePassword</span>
 						</button>
 
 					</form>
