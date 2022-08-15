@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+main {
+	position: relative;
+}
+
+.main-content {
+	max-width: 1080px;
+}
+
+.main-content .main-header, .main-form-button {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.main-form-button button {
+	margin: 30px;
+}
+
+.main-form .row {
+	margin: 30px;
+}
+
+.account-type .card:hover, .account-type .card:target {
+	background-color: #00839223;
+	box-shadow: 0 0 50px #ccc;
+	cursor: pointer;
+}
+
+.account-content .row {
+	text-align: center;
+}
+
+.account-function {
+	list-style-type: none;
+	border: 1px solid #07777721;
+	border-right: none;
+	margin: 0;
+}
+
+.account-function li {
+	padding: 20px 0 20px 0;
+}
+
+.account-function li:hover {
+	background-color: #ccc;
+}
+
+.active {
+	background-color: #ccc;
+}
+
+
+
+.clickable-button {
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+}
+
+.back-button {
+	text-decoration: none;
+	border: 1px solid #07777721;
+	border-radius: 50%;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.back-button:hover {
+	background-color: #07777721;
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {
+		font-size: 20px
+	}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
