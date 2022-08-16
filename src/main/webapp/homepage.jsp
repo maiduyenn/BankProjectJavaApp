@@ -33,7 +33,7 @@ pageContext.setAttribute("userInfo", user);
 		</div>
 		<div class="container">
 			<div class="main-header">
-				<h1>Bank Account Management</h1>
+				<h1 style="text-align: center">TDD Bank</h1>
 			</div>
 			<div class="main-form">
 				<div class="card-body">
@@ -46,9 +46,12 @@ pageContext.setAttribute("userInfo", user);
 						onclick="doFunction('CurrentAccountDisplay')">Current
 						Account</button>
 				</div>
+
+
 			</div>
 		</div>
-
+		<h2 id="balance" style="text-align: center; font-weight: bold;">
+			Balance: 10000000</h2>
 		<hr>
 		<div class="main-account-content">
 			<iframe src="CurrentAccountDisplay" width="1056" height="300"
@@ -65,11 +68,14 @@ pageContext.setAttribute("userInfo", user);
 
 	<div id="myNav" class="overlay">
 		<div class="overlay-content">
-			<form action="CurrentAccountTask" method="post" id="bank-action">
+			<form action="CurrentAccountTask" method="post" id="bank-action"
+				style="margin-top: 45px; text-align: center">
 				<div class="row">
 					<div class="col-12">
-						<label for="amount">Type Account</label> <select id="account-type">
+						<label for="amount">Type Account</label> <select id="account-type"
+							class="info">
 							<option value="CurrentAccount">Current Account</option>
+							<option value="CurrentAccount">Saving Account</option>
 						</select>
 					</div>
 				</div>
@@ -78,8 +84,8 @@ pageContext.setAttribute("userInfo", user);
 						<div class="row">
 							<div class="col-12" style="margin-top: 30px;">
 								<label for="customer_name">CUSTOMER NAME</label> <input
-									type="text" name="customer_name" id="customer_name" disabled
-									value="<%=user.getCusName()%>">
+									class="info" type="text" name="customer_name"
+									id="customer_name" disabled value="<%=user.getCusName()%>">
 							</div>
 						</div>
 						<div class="row">
@@ -89,29 +95,29 @@ pageContext.setAttribute("userInfo", user);
 									CUSTOMER ID</label>
 							</div>
 							<div class="col-6" style="margin-top: 30px;">
-								<input type="text" name="to-customer-id" id="to-customer-id"
-									value="0" required style="display: none;" />
+								<input class="info" type="text" name="to-customer-id"
+									id="to-customer-id" value="0" required style="display: none;" />
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12" style="margin-top: 30px;">
-								<label for="transaction">TRANSACTION</label> <input type="text"
-									name="transaction" id="transaction" value=""> <label
-									for="amount">AMOUNT</label> <input type="text" name="amount"
-									id="amount" required>
+								<label for="transaction">TRANSACTION</label> <input class="info"
+									type="text" name="transaction" id="transaction" value="">
+								<br> <label for="amount" style="margin-top: 30px;">AMOUNT</label>
+								<input class="info" type="text" name="amount" id="amount"
+									required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12">
-								<input placeholder="duration" id="duration" name="duration"
-									required value="0"
+								<input class="info" placeholder="duration" id="duration"
+									name="duration" required value="0"
 									style="display: none; margin-left: auto; margin-right: auto; margin-top: 30px;">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12" style="margin-top: 30px;">
-								<button type="submit" id="submit-button-name">DEPOSIT</button>
-								<button type="reset" onclick="closeNav()">CANCEL</button>
+								<button type="submit" id="submit-button-name" class="btn-action">DEPOSIT</button>
 							</div>
 						</div>
 					</div>
@@ -158,10 +164,6 @@ pageContext.setAttribute("userInfo", user);
 			} else {
 				document.getElementById("duration").style.display = "none";
 			}
-		}
-
-		function closeNav() {
-			document.getElementById("myNav").style.width = "0%";
 		}
 	</script>
 </body>
