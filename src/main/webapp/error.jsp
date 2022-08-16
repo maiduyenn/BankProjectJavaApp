@@ -28,7 +28,7 @@
         <main>
             <div class="content">
                 <aside>
-                    <img src="images/error.jpg" style="height: 400px;" />
+                    <img src="images/mistake.jpg" style="height: 400px;" />
                 </aside>
                 <main>
                     <h1>Sorry!</h1>
