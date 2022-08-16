@@ -33,7 +33,7 @@ public class ChangePassword extends HttpServlet {
 			request.getRequestDispatcher("register.jsp").forward(request, response);
 		} else {
 			PrintWriter out = response.getWriter();
-			out.print("<h1 style='color:blue;'>Update Password Successfully</h1>");
+			out.print("<h5 style='color: white; margin-left: 36%' Update Password Successfully</h5>");
 			request.getRequestDispatcher("index.jsp").include(request, response);
 		}
 	}
